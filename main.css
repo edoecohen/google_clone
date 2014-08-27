@@ -73,33 +73,30 @@ a:hover {
 HEADER 
 ============*/
 
-header nav {
-	margin: 12px 0 0 auto;
-	width: 298px;
+#main-menu {
+	margin: 15px 15px 0 0;
+	text-align: right;
 }
 
-header nav a {
+#main-menu li {
+	display: inline-block;
+	padding-right: 1px;
+	vertical-align: middle;
+}
+
+#main-menu li a {
 	color: #404040;
 	font-size: 0.8em;
 	margin-right: 13px;
 }
 
-header nav .menu {
+#main-menu li img {
 	width: 22px;
-	height: 22px;
-	background: url("images/gridsprite.png") 0px 0 no-repeat;
-	background-size: cover;
-	display: inline-block;
-	top: 7px;
-	position: relative;
-	margin-right: 13px;
-	background-position: 0 0;
-}
-header nav .menu:hover {
-	background-position: -22px 0;
+	margin-right: 12px;
+	margin-top: 4px;
 }
 
-header nav button {
+#main-menu li button {
 	border: 1px solid #4285F4;
 	background: #4285F4;
 	background: -webkit-linear-gradient(top,#4387FD,#4683EA);
@@ -109,13 +106,12 @@ header nav button {
 	color: white;
 	font-weight: bold;
 	position: relative;
-	top: -1px;
-	height: 31px;
-	width: 70px;
+	height: 30px;
+	padding: 0 13px;
 	font-size: 12px;
 }
 
-header nav button:hover {
+#main-menu li button:hover {
 	-webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
 	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
 }
